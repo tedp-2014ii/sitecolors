@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body{
+	background-color: #cccccc;
+	font-family: sans-serif;
+}
+
+#contenedor{
+	width: 940px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: black;
+	position: relative;
+}
+
+	#contenedor .flotado{
+			margin: 10px;
+			float: right;
+		}
+	h1{
+		color: #908D8D;
+	}
+	#contenedor p{
+		font-size: small;
+	}
+	#contenedor button{
+		color: #0095FF;
+		background-color: #C7C7C7;
+	}
+#contenedor2{
+	width: 940px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #0096D2;
+	position: relative;
+}
+	#contenedor2 .flotado{
+			width: 100px;
+			height: 20px;
+			margin: 10px;
+			color: #FFFFFF;
+			font-size: large;
+		}
+	#contenedor2 p{
+		color: #FFFFFF;
+	}
+	.horizontal li{
+		display: inline;
+		padding-right: 20px;
+	}
+#contenedor3{
+	width: 940px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #36F4E4;
+	position: relative;
+}
+	#contenedor3 .flotado{
+			width: 400px;
+			height: 100px;
+			margin: 9px;
+			float: right;
+	}
+	#contenedor3 p{
+		width: 400px;
+		height: 100px;
+		margin: 40px 10px 3px 50px;
+		float: right;
+	}
+#contenedor4{
+	width: 940px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #FFFFFF;
+	position: relative;
+}
+	#contenedor4 .flotado{
+			width: 250px;
+			height: 500px;
+			margin: 0px 25px;
+			float: left;
+	}
+	#contenedor4 .flotado1{
+			width: 80px;
+			height: 20px;
+			margin: 1px 80px 3px 3px;
+			float: right;
+	}
+	#contenedor4 p{
+		color:black	;
+	}
+	#contenedor4 a.link{
+		color:aqua;
+		float: right;
+	}
+	#contenedor4 a:visited{
+		color: aqua;
+		float: right;	
+	}
+#contenedor5{
+	width: 940px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #FFFFFF;
+	position: relative;
+}
+	#contenedor5 .flotado{
+			width: 350px;
+			height: 50px;
+			margin: 0px 50px;
+			float: left;
+
+	}
+	#contenedor5 .flotado1{
+			width: 400px;
+			height: 200px;
+			margin: 0px 80px 0px 0px;
+			float: right;
+	}
+	#contenedor5 .flotado2{
+			width: 200px;
+			height: 60px;
+			margin: 5px;
+	
+	}
+#contenedor6{
+	width: 940px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: black;
+	position: relative;
+}
+	#contenedor6 p{
+		color: #CCCACA;
+	}
+	#contenedor6 .flotado{
+		margin: 0px 10px;
+		font-size: x-small;
+		float: right;
+	}
