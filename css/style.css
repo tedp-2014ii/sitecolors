@@ -27,138 +27,137 @@ header{
 	background-color: #191919;
 	border-style: solid;
 	border: 20px solid #191919;
-	border-spacing: 80px;
+	border-spacing: 80px; /* Esta propiedad esta de más, esta se aplica a las tablas */ 
 	overflow: hidden;	 
-	}
-	#logo{
-		padding-left: 20px;
-	}
-	#textoenc{
+}
+#logo{
+	padding-left: 20px;
+}
+#textoenc{
 	color:#505050;
 	margin-left: 280px;
 	font-style: italic;
-
-	}
-	span{
+}
+span{
 	color: #8c8c8c;
-	font-weight: 800;
-	}
-	button{
+	font-weight: 800; /* Funciona cuando aplicas font-weight: 800px; */
+}
+button{
 	background-color: #373737;
 	color: #179ed5;
 	margin-left: 20px;
 	padding: 8px 35px;
 	border-radius: 6px;
-	font-weight: 600;
-	}
+	font-weight: 600; /* Funciona cuando aplicas font-weight: 600px; */
+}
 
 nav{
 	background-color: #299dcf;
 	overflow: hidden;
 	border:10px solid #299dcf;
-	}
+}
 
-	li{
+li{
 	width: 100px;
 	margin: 10px;
 	padding-left: 30px;
 	list-style-type: none;
-	}
-	a{
-		color: #ffffff;
-		font-weight: 800;
-		text-decoration: none;
-	}
-	a:hover{
-		color: red;
-	}
-	a:active {
-		color: red;
-		background-color: #2182ac;
-		border-radius: 10px;
-	}
+}
+a{
+	color: #ffffff;
+	font-weight: 800; /* Funciona cuando aplicas font-weight: 800px; */
+	text-decoration: none;
+} /* Especificar el elemento, evita conflictos con otros elementos en el documento */
+a:hover{
+	color: red; /* Este hover rompe el estilo visual del sitio, en la maqueta el hover del menu es un backround azul con borde redondeado */
+}
+a:active {
+	color: red;
+	background-color: #2182ac;
+	border-radius: 10px;
+}
 section {
 	background-color: #27c0f6;
 	overflow: hidden;
-	}
-	#imgcen {
+}
+#imgcen {
 	padding-left: 40px;
 	padding-top: 40px;
 	height: 262px;
 	width: 450px;
-	}
-	h1{
-		padding-top: 60px;
-		padding-bottom: 10px;
-		width: 380px;
-		border-bottom: groove #0489B1;
-		text-align: justify;
-	}
+}
+h1{
+	padding-top: 60px;
+	padding-bottom: 10px;
+	width: 380px;
+	border-bottom: groove #0489B1; /* Es más grueso que en la maqueta, hay que especificar el grosor del borde, por ejemplo 2px */
+	text-align: justify;
+}
 
-	#textosec{
-		width: 380px;
-		padding-top: 20px;
-	}
+#textosec{
+	width: 380px;
+	padding-top: 20px;
+}
 article{
 	overflow: hidden;
 	padding-top: 30px;
 	padding-left: 40px;
-	}
-	.bloque{
-			float: left;
-			width: 260px;
-			margin: 20px;
-			overflow: hidden;
-			}
-	h2{
-		width: 150px;
-	}
-	article img.flotado{
-		padding-right: 10px;
-	}
-	h4 a {
-		color: #2ebef5;
-		padding-left: 150px;
-		font-weight: 200;
-		
-	}
+}
+.bloque{
+	float: left;
+	width: 260px;
+	margin: 20px;
+	overflow: hidden;
+}
+h2{
+	width: 150px;
+}
+article img.flotado{
+	padding-right: 10px;
+} /* Podrías omitir la clase en la declaración */
+h4 a {
+	color: #2ebef5;
+	padding-left: 150px;
+	font-weight: 200; /* Funciona cuando aplicas font-weight: 200px; */
+}
 
-		#last{
-		overflow: hidden;
+#last{
+	overflow: hidden;
 	width: 420px;
 	border-top: solid #ffffff;
-	padding-top: 40px;
-	}
-	#about{
-		border-top:solid #ffffff;
-		width: 420px;
-		padding-top: 40px;
-	}
+	padding-top: 40px; /* Evita usar padding tan grande, mejor utiliza un margin */
+}
+#about{
+	border-top:solid #ffffff;
+	width: 420px;
+	padding-top: 40px; /* Evita usar padding tan grande, mejor utiliza un margin */
+}
 footer{
 	background-color: #191919;
-	border-top:25px solid #191919;
+	border-top: 25px solid #191919; /* En vez de usar un borde tan grande utiliza un padding-top */
 	height: 40px;
 	margin-top: 30px;
 	overflow: hidden;
-	}
+}
 	
-	#footimg{
+#footimg{
 	padding-left: 80px;
-	}
-	#footex{
-		padding-left: 30px;
-	}
-	#floot{ 
-		font-weight:80;
-	}
-	#footmen{
-		overflow: hidden;
-		padding-left: 60px;
+}
+#footex{
+	padding-left: 30px;
+}
+#floot{ 
+	font-weight:80; /* Funciona cuando aplicas font-weight: 80px; */
+	padding-left: 20px;
+}
+#footmen{
+	overflow: hidden;
+	padding-left: 60px;
 
-	}
-	h5{
-		font-weight: 300;
-		padding-left: 20px;
-		width: 100px;
-		margin: 10px;
-	}
+}
+h5{
+	font-weight: 300; /* Funciona cuando aplicas font-weight: 300px; */
+	padding-left: 20px;
+	width: 100px;
+	margin: 10px;
+}
