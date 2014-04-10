@@ -6,81 +6,85 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<div id="contenedor"> 
+	<div id="contenedor"><!-- En tu caso que el contenido se mantiene centrado, lo ideal sería utilizar un solo contenedor que tenga las propiedades de ancho y se mantenga centrado -->
 		<img src="logo.png">
-		<div class="flotado"> <BUTTON> <font color="blue ">SING UP </font></BUTTON></div>
+		<div class="flotado">
+			<BUTTON>
+				<font color="blue ">SING UP </font><!-- Esta etiqueta no se utiliza, además recuerda que los estilos se asignan en el archivo CSS -->
+			</BUTTON><!-- Se estila escribir las etiquetas en minuscula, este elemento debería ser un enlace <a href="#">SIGN UP</a> ya que debería enlazar a un formulario de registro, no envía información, como por ejemplo una busqueda -->
+		</div>
 		<div class="flotado"><p>would you be our cosutumer</p></div>
-</div>
+	</div>
 
-<div id="contenedor1"> 
+	<div id="contenedor1"> 
 
-		<ul><div class="flotado2"> HOME</div></ul>
+		<ul><div class="flotado2"> HOME</div></ul><!-- Los elementos <div> deberían ser enlaces <a href="#" title="Home">HOME</a> -->
 		<ul><div class="flotado2"> ABOUT US</div></ul>
 		<ul><div class="flotado2"> PORTAFOLIO</div></ul>
 		<ul><div class="flotado2"> BLOG </div></ul>
-		<ul><div class="flotado2"> CONTACT</div></ul>			
-</div>
-<div id="contenedor2"> 
+		<ul><div class="flotado2"> CONTACT</div></ul>
+		<!-- Recuerda que la lista se construye de la forma:
+		<ul>
+			<li>Elemento 1</li>
+			<li>Elemento B</li>
+			<li>Otro elemento</li>
+		</ul>
+		El ul significa Unordered list -->		
+	</div>
+	<div id="contenedor2"> 
 
 		<img src="central.png" >
-		<div class="flotado3"> <h2>LOREM IPSUM DOLOR SIT AMET CONSECTETUR AUDIPISCION ELIT!</h2>
-		 <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
-		 </div>
-</div>
-<div id="contenedor3">
+		<div class="flotado3">
+			<h2>LOREM IPSUM DOLOR SIT AMET CONSECTETUR AUDIPISCION ELIT!</h2>
+	 		<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+	 	</div>
+	</div>
+	<div id="contenedor3">
 		<div class="flotado4"> 
-		<img src="camera.png">
-		 <h3>PHOTOGRHAPY</h3>
-		 <div>NEED A COURSE? </div>
-		 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non urna fermentum, facilisis libero non, tristique lectus. Mauris tristique dictum dui, at mattis lacus convallis vel. Curabitur pulvinar augue ut tincidunt viverra. Nunc consequat condimentum sagittis. Suspendisse interdum purus libero, vitae faucibus sem facilisis eget. Phasellus in felis nulla. Praesent euismod dolor in nisi tincidunt, sit amet vehicula tellus accumsan. Pellentesque lacinia ipsum neque, a bibendum erat lobortis in. Etiam ut lectus laoreet, ullamcorper lectus et, scelerisque diam.</p> 
-		 <a href="http://www.google.com"><p align="right">READ MORE</p> </a>
-		 </div>
+			<img src="camera.png">
+		 	<h3>PHOTOGRHAPY</h3>
+		 	<div>NEED A COURSE? </div><!-- Podrías emplear otra etiqueta h4, h5 para evitar el <div> -->
+		 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non urna fermentum, facilisis libero non, tristique lectus. Mauris tristique dictum dui, at mattis lacus convallis vel. Curabitur pulvinar augue ut tincidunt viverra. Nunc consequat condimentum sagittis. Suspendisse interdum purus libero, vitae faucibus sem facilisis eget. Phasellus in felis nulla. Praesent euismod dolor in nisi tincidunt, sit amet vehicula tellus accumsan. Pellentesque lacinia ipsum neque, a bibendum erat lobortis in. Etiam ut lectus laoreet, ullamcorper lectus et, scelerisque diam.</p> 
+		 	<a href="http://www.google.com"><p align="right">READ MORE</p> </a><!-- Lo ideal es utilizarlo al reves <p><a href="http://www.google.com" title="Read More">READ MORE</a></p> -->
+	 	</div>
  
- 			<div class="flotado4"> 
-		<img src="plus.png">
-	 	<h3>BUSINESS </h3>
-	 	<div>NEED A COURSE? </div>
+		<div class="flotado4"> 
+			<img src="plus.png">
+	 		<h3>BUSINESS </h3>
+	 		<div>NEED A COURSE? </div>
 
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non urna fermentum, facilisis libero non, tristique lectus. Mauris tristique dictum dui, at mattis lacus convallis vel. Curabitur pulvinar augue ut tincidunt viverra. Nunc consequat condimentum sagittis. Suspendisse interdum purus libero, vitae faucibus sem facilisis eget. Phasellus in felis nulla. Praesent euismod dolor in nisi tincidunt, sit amet vehicula tellus accumsan. Pellentesque lacinia ipsum neque, a bibendum erat lobortis in. Etiam ut lectus laoreet, ullamcorper lectus et, scelerisque diam.</p> 
-		 <a href="#"><p align="right">READ MORE</p></a>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non urna fermentum, facilisis libero non, tristique lectus. Mauris tristique dictum dui, at mattis lacus convallis vel. Curabitur pulvinar augue ut tincidunt viverra. Nunc consequat condimentum sagittis. Suspendisse interdum purus libero, vitae faucibus sem facilisis eget. Phasellus in felis nulla. Praesent euismod dolor in nisi tincidunt, sit amet vehicula tellus accumsan. Pellentesque lacinia ipsum neque, a bibendum erat lobortis in. Etiam ut lectus laoreet, ullamcorper lectus et, scelerisque diam.</p> 
+		 	<a href="#"><p align="right">READ MORE</p></a>
  		</div>
 
  		<div class="flotado4"> 
-		<img src="ball.png">
-		<h3>DESIGNING</h3>
-		<div>NEED A COURSE? </div>
-		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non urna fermentum, facilisis libero non, tristique lectus. Mauris tristique dictum dui, at mattis lacus convallis vel. Curabitur pulvinar augue ut tincidunt viverra. Nunc consequat condimentum sagittis. Suspendisse interdum purus libero, vitae faucibus sem facilisis eget. Phasellus in felis nulla. Praesent euismod dolor in nisi tincidunt, sit amet vehicula tellus accumsan. Pellentesque lacinia ipsum neque, a bibendum erat lobortis in. Etiam ut lectus laoreet, ullamcorper lectus et, scelerisque diam.</p>
-		<a href="#"><p align="right">READ MORE</p></a>
+			<img src="ball.png">
+			<h3>DESIGNING</h3>
+			<div>NEED A COURSE? </div>
+			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non urna fermentum, facilisis libero non, tristique lectus. Mauris tristique dictum dui, at mattis lacus convallis vel. Curabitur pulvinar augue ut tincidunt viverra. Nunc consequat condimentum sagittis. Suspendisse interdum purus libero, vitae faucibus sem facilisis eget. Phasellus in felis nulla. Praesent euismod dolor in nisi tincidunt, sit amet vehicula tellus accumsan. Pellentesque lacinia ipsum neque, a bibendum erat lobortis in. Etiam ut lectus laoreet, ullamcorper lectus et, scelerisque diam.</p>
+			<a href="#"><p align="right">READ MORE</p></a>
  		</div>
 
  		<div style="clear:both"></div>
-</div>
-<div id="contenedor4"> 
-
-	<div class="flotado7"> LATEST WORKS</div>
-	<div class="flotado7"> ABOUT US </div>
-</div>
-<div id="contenedor5"> 
-	<div class="flotado"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non urna fermentum, facilisis libero non, tristique lectus. Mauris tristique dictum dui, at mattis lacus convallis vel. Curabitur pulvinar augue ut tincidunt viverra. Nunc consequat condimentum sagittis. Suspendisse interdum purus libero, vitae faucibus sem facilisis eget. Phasellus in felis nulla. Praesent euismod dolor in nisi tincidunt, sit amet vehicula tellus accumsan. Pellentesque lacinia ipsum neque, a bibendum erat lobortis in. Etiam ut lectus laoreet, ullamcorper lectus et, scelerisque diam.</div>
-	<div>
-	<img class="flotado7" src="image01.png">
-	<img class="flotado7" src="image02.png">
-	<img class="flotado7" src="image03.png">
-	<img class="flotado7" src="image04.png">
 	</div>
-	<div style="clear:both"></div>
-</div>
-<div id="contenedor6">
-	<img src="logo1.png">
-	<div class="flotado"><p>HOME ABOUT US PORTAFOLIO BLOG CONTACT</p></div>
-	<div class="flotado"><p>©2010 MINIM VENIAM ALL RIGTHS RESERVED</p></div>
-
-</div>
-
-
-	
-
-
-
+	<div id="contenedor4"> 
+		<div class="flotado7"> LATEST WORKS</div><!-- Estos elementos deben ser los titulos de los elementos siguientes, no estar en un contenedor diferente -->
+		<div class="flotado7"> ABOUT US </div><!-- Emplear h2, h3 como etiqueta en vez de <div> -->
+	</div>
+	<div id="contenedor5"> 
+		<div class="flotado"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non urna fermentum, facilisis libero non, tristique lectus. Mauris tristique dictum dui, at mattis lacus convallis vel. Curabitur pulvinar augue ut tincidunt viverra. Nunc consequat condimentum sagittis. Suspendisse interdum purus libero, vitae faucibus sem facilisis eget. Phasellus in felis nulla. Praesent euismod dolor in nisi tincidunt, sit amet vehicula tellus accumsan. Pellentesque lacinia ipsum neque, a bibendum erat lobortis in. Etiam ut lectus laoreet, ullamcorper lectus et, scelerisque diam.</div><!-- Este texto debe ir encapsulado en un elemento <p> -->
+		<div>
+			<img class="flotado7" src="image01.png"><!-- Las imagenes deben ir dentro de la carpeta images, para poderlas referenciar, la ruta es images/image01.png, recuerda el recorrido del arbol del sitio. -->
+			<img class="flotado7" src="image02.png">
+			<img class="flotado7" src="image03.png">
+			<img class="flotado7" src="image04.png"><!-- Las imagenes por si solas son elementos "inline" que se posicionan uno detras del otro, no necesitan flotarse, lo que necesitas es ajustar los margenes que guardan uno con respecto al otro y el tamaño del <div> que los contiene para que se visualicen como esta en la maqueta -->
+		</div>
+		<div style="clear:both"></div>
+	</div>
+	<div id="contenedor6">
+		<img src="logo1.png">
+		<div class="flotado"><p>HOME ABOUT US PORTAFOLIO BLOG CONTACT</p></div>
+		<div class="flotado"><p>©2010 MINIM VENIAM ALL RIGTHS RESERVED</p></div>
+	</div>
 </body>
 </html>

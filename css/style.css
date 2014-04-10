@@ -1,179 +1,150 @@
 /*reset*/
 *{
-
 	margin: 0;
 	padding: 0;
 	border: none;
-
 }
+
 /*estilos del documento*/
-
 body {
-
-	background-color: white;
+	background-color: white; /* Utilizar colores en Hexadecimal RGB background-color: #ffffff; */
 	font-style: sans-serif;
-
 }
-
 #contenedor{
-
-		width: 960px;
-		margin: 0 auto;
-		background-color: black;	
+	width: 960px;
+	margin: 0 auto;
+	background-color: black; /* Utilizar colores en Hexadecimal RGB background-color: #000000; */	
 }
-
 #contenedor .flotado {
-
-				height: 300px;
-				margin:  1px;
-				/*background: #cc00cc;*/
-				float: right;
-				text-align: right;
-
-
+	height: 300px;
+	margin:  1px;
+	/*background: #cc00cc;*/
+	float: right;
+	text-align: right;
 }
-
  #contenedor p{
- 				
- 				margin: 5px;
- 				text-align: right;
- 				color: gray;
- 				font-size: 4;
- 				font-style: italic;
- 				 }
-
+	margin: 5px;
+	text-align: right;
+	color: gray;  /* Utilizar colores en Hexadecimal RGB color: #cccccc; */
+	font-size: 4; /* Funciona con font-size: 4px; hay que darle una unidad de medida */
+	font-style: italic;
+}
 #contenedor button{
-
-	background-color: gray; 
+	background-color: gray; /* Utilizar colores en Hexadecimal RGB background-color: #cccccc; */
 }
 #contenedor1 {
-
-		width: 940px;
-		height: 30px;
-		margin: 0 auto;
-		padding: 10px;
-		background-color: blue;
-		position: relative;
+	width: 940px;
+	height: 30px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: blue; /* Utilizar colores en Hexadecimal RGB background-color: #0000ff; */
+	position: relative;
 }
 #contenedor1 .flotado2{
-
-				height: 100px;
-				margin: 3px 30px;
-				float: left;
-				text-align: right;
-				font-size: 4;
-				color: white;
-				font-style: comic;
+	height: 100px;
+	margin: 3px 30px;
+	float: left;
+	text-align: right;
+	font-size: 4; /* Funciona con font-size: 4px; hay que darle una unidad de medida */
+	color: white;  /* Utilizar colores en Hexadecimal RGB color: #ffffff; */
+	font-style: comic; /* font-style tiene valores normal, italic, oblique, initial(default), inherit(heredada de su contenedor) pero no existe la propiedad comic, en este caso supongo que te referias a font: comic-sans; */
 }
 #contenedor2 {
-	
-		width: 960px;
-		margin: 0 auto;
-		background-color: aqua;
-		position: relative;
-	}
+	width: 960px;
+	margin: 0 auto;
+	background-color: aqua; /* Utilizar colores en Hexadecimal RGB background-color: #00ffff; */
+	position: relative;
+}
 #contenedor2 .flotado3{
- 
-				width: 200px;
-				height: 150px;
-				margin: 0 10px;
-				float: right;
-				padding: 10px;
-
-				}
+	width: 200px;
+	height: 150px;
+	margin: 0 10px;
+	float: right;
+	padding: 10px;
+}
 #contenedor2 p{
-				
-				margin:0 auto;
- 				color: gray;
- 				font-size: 4;
- 				font-style: italic;
- 				color: black;	
+	margin:0 auto; /* El elemento <p> es un bloque y mientras no tenga un tamaño "width" menor al ancho de su contenedor no lo podras centrar, para centrar el texto utiliza text-align: center; */
+	color: gray; /* Utilizar colores en Hexadecimal RGB color: #cccccc; */
+	font-size: 4; /* Funciona con font-size: 4px; hay que darle una unidad de medida */
+	font-style: italic;
+	color: black; /* Estas utilizando dos veces la propiedad color en la misma declaración, tomará como valida esta última pero entonces porque declarar la anterior */
 }
 #contenedor3 {
-
-		width: 960px;
-		margin: 0 auto;
-		
-		background-color: white;
-		
-	}
-
-#contenedor3 .flotado4{
-
-		width: 280px;
-		height: 450px;		
-		margin: 10px;
-		background: #FFFFFF;
-		float: left;
+	width: 960px;
+	margin: 0 auto;
+	background-color: white; /* Utilizar colores en Hexadecimal RGB background-color: #ffffff; */	
 }
-
-#contenedor3 a.link{
+#contenedor3 .flotado4{
+	width: 280px;
+	height: 450px;		
+	margin: 10px;
+	background: #FFFFFF; /* Por convension los valores de color se utilizan en minusculas */
+	float: left;
+}
+#contenedor3 a.link{ /* Se utiliza como a:link ya que así lo entiende como que tienes un tag <a class="link" href="#"></a> */
 	color: aqua;
 }
-
-#contenedor3 a.visited{
-
+#contenedor3 a.visited{ /* Se utiliza como a:visited ya que así lo entiende como que tienes un tag <a class="visited" href="#"></a> */
 		color: aqua;
 }
-
+/* Para los dos casos anteriores podrías utilizar
+	#contenedor3 a:link, #contenedor3 a:visited{
+		color: #00ffff;
+	}
+*/
 #contenedor4 {
-
-		width: 940px;
-		margin: 7px 170px;
-		padding: 10px;
-		background-color: #ffffff;
-		position: relative;
-
-	}
-
+	width: 940px;
+	margin: 7px 170px;
+	padding: 10px;
+	background-color: #ffffff;
+	position: relative;
+}
 #contenedor4 .flotado7{
-
-		height: 10px;
-		width: 450px;
-		float: left;
+	height: 10px;
+	width: 450px;
+	float: left;
 }
-
-
-
 #contenedor5 {
-		width: 940px;
-		margin: 0 auto;
-		padding: 10px;
-		background-color: #FFFFFF;
-		position: relative;
-	}
-
-#contenedor5 .flotado7{
-		margin:10px;
-		width: 200px;
-		height: 60px;
-		float:left;
-		}
-
-#contenedor5 .flotado{
-		margin:10px;
-		width: 450px;
-		float: right;
+	width: 940px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #FFFFFF;
+	position: relative;
 }
-
+#contenedor5 .flotado7{
+	margin:10px;
+	width: 200px;
+	height: 60px;
+	float:left;
+}
+#contenedor5 .flotado{
+	margin:10px;
+	width: 450px;
+	float: right;
+}
 #contenedor6 {
-
-		width: 940px;
-		margin: 0 auto;
-		padding: 10px;
-		background-color: black;
-		position: relative;
-
+	width: 940px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: black;
+	position: relative;
+}
+#contenedor6 p{
+	color:gray;
+}
+#contenedor6 .flotado{
+	margin:0 auto;
+	width: 250px;
+	float: right;
+	font-size:x-small; /* Utilizar un tamaño de fuente en pixeles font-size: 10px; */
+}
+/* Detecto un excesivo uso de clases .flotado y algún número, esto lo puedes contrarrestar utilizando por ejemplo
+	#contenedor6 div{
+		...
 	}
-	#contenedor6 p{
-		color:gray;
-
+de esta forma le estarás asignando propiedades al <div> que se encuentra dentro del <div id="contenedor6"></div>
+Podrías crear una clase que efectivamente se llame flotado y que como unica propiedad tenga el float:
+	.flotado{
+		float: left;
 	}
-	#contenedor6 .flotado{
-
-		margin:0 auto;
-		width: 250px;
-		float: right;
-		font-size:x-small;
-
-	}
+*/
